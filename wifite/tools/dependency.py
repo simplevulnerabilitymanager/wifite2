@@ -24,7 +24,7 @@ class Dependency(object):
 
         from .aircrack import Aircrack
         from .ifconfig import Ifconfig
-        from .iw import Iw
+        from .iwconfig import Iwconfig
         from .bully import Bully
         from .reaver import Reaver
         from .pyrit import Pyrit
@@ -36,7 +36,7 @@ class Dependency(object):
                 # Aircrack
                 Aircrack, #Airodump, Airmon, Aireplay,
                 # wireless/net tools
-                Iw, Ifconfig,
+                Iwconfig, Ifconfig,
                 # WPS
                 Reaver, Bully,
                 # Cracking/handshakes
